@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { Card } from 'primeng/card';
 
 @Component({
   selector: 'lib-core',
-  imports: [],
+  imports: [Card],
   templateUrl: './core.component.html',
   styleUrl: './core.component.css',
 })
